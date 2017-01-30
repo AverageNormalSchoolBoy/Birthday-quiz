@@ -45,9 +45,12 @@ day = input("And the day?")
 month = month.lower()
 if int(day) == 31 and month == "october":
     print("You were born on Halloween!")
-elif month == month1 and int(date) == int(todaydate):
+elif month == "month1" and int(date) == int(todaydate):
     print("Happy Birthday!")
-elif month == "september" or month == "october" or month == "november":
+else: print("{0}, you are a {1} baby of the {2}" .format(name, season, age))
+
+
+if month == "september" or month == "october" or month == "november":
     season = "fall"
 elif month == "december" or month == "january" or month == "february":
     season = "winter"
@@ -65,6 +68,6 @@ elif int(year) >= 1980 and int(year) < 1990:
 elif int(year) >= 1990 and int(year) < 2000:
     age = "the ninties" 
 else: age = "the two thousands"
-print("{0}, you are a {1} baby of the {2}" .format(name, season, age))
+
 
 
