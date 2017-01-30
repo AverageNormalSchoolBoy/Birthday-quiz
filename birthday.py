@@ -47,7 +47,14 @@ elif month == "march" or month == "april" or month == "may":
     season = "spring"
 elif month == "june" or month == "july" or month == "august":
     season = "summer"
-print("{0}, you are a {1} baby of the" .format(name, season))
+if int(year) < 1980:
+    age = "Stone Age"
+elif int(year) >= 1980 and < 1990:
+    age = "the eighties" 
+elif int(year) >= 1990 and < 2000:
+    age = "the ninties" 
+else: age = "the two thousands"
+print("{0}, you are a {1} baby of the {2}" .format(name, season, age))
 
 
 from datetime import datetime
