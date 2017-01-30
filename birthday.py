@@ -37,7 +37,7 @@ month = input("Hi {0}, what was the name of the month you were born in?" .format
 year = input("And what year were you born in, {0}?" .format(name))
 day = input("And the day?")
 
-if month == "October" and day == "31"
+if month == "October" and day == "31":
     print("You were born on Halloween"
 if month == ("September" or "October
 
