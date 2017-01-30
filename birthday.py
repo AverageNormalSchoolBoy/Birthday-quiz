@@ -39,6 +39,8 @@ day = input("And the day?")
 
 if month == "October" and day == 31:
     print("You were born on Halloween")
+else:
+    print("Didn't work")
 
 
 from datetime import datetime
