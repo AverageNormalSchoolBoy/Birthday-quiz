@@ -1,6 +1,6 @@
 """
 birthday.py
-Author: <your name here>
+Author: <Brendan>
 Credit: <list sources used, if any>
 Assignment:
 
@@ -31,3 +31,7 @@ Example Session
   And the day? 11
   Eric, you are a fall baby of the stone age.
 """
+September = 9
+name = input("Hello, what is your name?")
+month = input("Hi {0}, what was the name of the month you were born in?" .format(name))
+print(int(month))
