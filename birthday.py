@@ -38,9 +38,16 @@ year = input("And what year were you born in, {0}?" .format(name))
 day = input("And the day?")
 month = month.lower()
 if int(day) == 31 and month == "october":
-    print("You were born on Halloween")
-else:
-    print("Didn't work")
+    print("You were born on Halloween!")
+elif month == "september" or month == "october" or month == "november":
+    season = "fall"
+elif month == "december" or month == "january" or month == "february":
+    season = "winter"
+elif month == "march" or month == "april" or month == "may":
+    season = "spring"
+elif month == "june" or month == "july" or month == "august":
+    season = "summer"
+print("{0}, you are a {1} baby of the" .format(name, season))
 
 
 from datetime import datetime
