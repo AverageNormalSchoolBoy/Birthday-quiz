@@ -43,7 +43,7 @@ month = input("Hi {0}, what was the name of the month you were born in?" .format
 year = input("And what year were you born in, {0}?" .format(name))
 day = input("And the day?")
 month = month.lower()
-
+month1 = month1.lower()
 
 
 if month == "september" or month == "october" or month == "november":
@@ -62,12 +62,12 @@ if int(year) < 1980:
 elif int(year) >= 1980 and int(year) < 1990:
     age = "the eighties" 
 elif int(year) >= 1990 and int(year) < 2000:
-    age = "the ninties" 
+    age = "the nineties" 
 else: age = "the two thousands"
 
 if int(day) == 31 and month == "october":
     print("You were born on Halloween!")
-elif month == month1 and int(date) == int(todaydate):
+elif month == month1 and int(day) == int(todaydate):
     print("Happy Birthday!")
 else: print("{0}, you are a {1} baby of the {2}" .format(name, season, age))
 
