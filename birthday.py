@@ -68,6 +68,6 @@ else: age = "the two thousands"
 if int(day) == 31 and month == "october":
     print("You were born on Halloween!")
 elif month == month1 and int(day) == int(todaydate):
-    print("Happy Birthday!")
+    print("Happy birthday!")
 else: print("{0}, you are a {1} baby of the {2}" .format(name, season, age))
 
