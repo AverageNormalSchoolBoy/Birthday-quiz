@@ -58,12 +58,12 @@ elif month == "june" or month == "july" or month == "august":
     
     
 if int(year) < 1980:
-    age = "Stone Age"
+    age = "Stone Age."
 elif int(year) >= 1980 and int(year) < 1990:
-    age = "the eighties" 
+    age = "the eighties." 
 elif int(year) >= 1990 and int(year) < 2000:
-    age = "the nineties" 
-else: age = "the two thousands"
+    age = "the nineties." 
+else: age = "the two thousands."
 
 if int(day) == 31 and month == "october":
     print("You were born on Halloween!")
